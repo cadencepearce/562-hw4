@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F02050C4284DEE5600B911C1 /* birdml4App.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02050C3284DEE5600B911C1 /* birdml4App.swift */; };
+		F02050C6284DEE5600B911C1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02050C5284DEE5600B911C1 /* ContentView.swift */; };
+		F02050C8284DEE5700B911C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F02050C7284DEE5700B911C1 /* Assets.xcassets */; };
+		F02050CB284DEE5700B911C1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F02050CA284DEE5700B911C1 /* Preview Assets.xcassets */; };
+		F02050D5284DEE5700B911C1 /* birdml4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02050D4284DEE5700B911C1 /* birdml4Tests.swift */; };
+		F02050DF284DEE5700B911C1 /* birdml4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02050DE284DEE5700B911C1 /* birdml4UITests.swift */; };
+		F02050E1284DEE5700B911C1 /* birdml4UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02050E0284DEE5700B911C1 /* birdml4UITestsLaunchTests.swift */; };
+		F02050EE284DEE7100B911C1 /* AudioStreamManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02050ED284DEE7100B911C1 /* AudioStreamManager.swift */; };
+		F02050F0284DEF4500B911C1 /* AudioStreamObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02050EF284DEF4500B911C1 /* AudioStreamObserver.swift */; };
+		F02050F2284DEF7D00B911C1 /* BirdSongClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F02050F1284DEF7D00B911C1 /* BirdSongClassifier.mlmodel */; };
+		F02050F4284DEFE500B911C1 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02050F3284DEFE500B911C1 /* ChartView.swift */; };
+		F02050F6284DF00200B911C1 /* ListenButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02050F5284DF00200B911C1 /* ListenButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F02050D1284DEE5700B911C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F02050B8284DEE5600B911C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F02050BF284DEE5600B911C1;
+			remoteInfo = birdml4;
+		};
+		F02050DB284DEE5700B911C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F02050B8284DEE5600B911C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F02050BF284DEE5600B911C1;
+			remoteInfo = birdml4;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F02050C0284DEE5600B911C1 /* birdml4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = birdml4.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F02050C3284DEE5600B911C1 /* birdml4App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = birdml4App.swift; sourceTree = "<group>"; };
+		F02050C5284DEE5600B911C1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F02050C7284DEE5700B911C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F02050CA284DEE5700B911C1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F02050D0284DEE5700B911C1 /* birdml4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = birdml4Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F02050D4284DEE5700B911C1 /* birdml4Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = birdml4Tests.swift; sourceTree = "<group>"; };
+		F02050DA284DEE5700B911C1 /* birdml4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = birdml4UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F02050DE284DEE5700B911C1 /* birdml4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = birdml4UITests.swift; sourceTree = "<group>"; };
+		F02050E0284DEE5700B911C1 /* birdml4UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = birdml4UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F02050ED284DEE7100B911C1 /* AudioStreamManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioStreamManager.swift; sourceTree = "<group>"; };
+		F02050EF284DEF4500B911C1 /* AudioStreamObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioStreamObserver.swift; sourceTree = "<group>"; };
+		F02050F1284DEF7D00B911C1 /* BirdSongClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = BirdSongClassifier.mlmodel; path = "../../../../../../var/folders/__/x062hgq94w756w3x42dm34gm0000gn/T/com.apple.dt.CreateML.app/sharing/drag/2AB9DA5C-D00A-4396-B7C9-3BE6139D317D/BirdSongClassifier.mlmodel"; sourceTree = "<group>"; };
+		F02050F3284DEFE500B911C1 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		F02050F5284DF00200B911C1 /* ListenButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListenButton.swift; sourceTree = "<group>"; };
+		F02050F7284DF0EF00B911C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F02050F8284DF11300B911C1 /* birdml4.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = birdml4.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F02050BD284DEE5600B911C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F02050CD284DEE5700B911C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F02050D7284DEE5700B911C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F02050B7284DEE5600B911C1 = {
+			isa = PBXGroup;
+			children = (
+				F02050C2284DEE5600B911C1 /* birdml4 */,
+				F02050D3284DEE5700B911C1 /* birdml4Tests */,
+				F02050DD284DEE5700B911C1 /* birdml4UITests */,
+				F02050C1284DEE5600B911C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F02050C1284DEE5600B911C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F02050C0284DEE5600B911C1 /* birdml4.app */,
+				F02050D0284DEE5700B911C1 /* birdml4Tests.xctest */,
+				F02050DA284DEE5700B911C1 /* birdml4UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F02050C2284DEE5600B911C1 /* birdml4 */ = {
+			isa = PBXGroup;
+			children = (
+				F02050F8284DF11300B911C1 /* birdml4.entitlements */,
+				F02050F7284DF0EF00B911C1 /* Info.plist */,
+				F02050F1284DEF7D00B911C1 /* BirdSongClassifier.mlmodel */,
+				F02050C3284DEE5600B911C1 /* birdml4App.swift */,
+				F02050C5284DEE5600B911C1 /* ContentView.swift */,
+				F02050EF284DEF4500B911C1 /* AudioStreamObserver.swift */,
+				F02050C7284DEE5700B911C1 /* Assets.xcassets */,
+				F02050ED284DEE7100B911C1 /* AudioStreamManager.swift */,
+				F02050F3284DEFE500B911C1 /* ChartView.swift */,
+				F02050F5284DF00200B911C1 /* ListenButton.swift */,
+				F02050C9284DEE5700B911C1 /* Preview Content */,
+			);
+			path = birdml4;
+			sourceTree = "<group>";
+		};
+		F02050C9284DEE5700B911C1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F02050CA284DEE5700B911C1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F02050D3284DEE5700B911C1 /* birdml4Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F02050D4284DEE5700B911C1 /* birdml4Tests.swift */,
+			);
+			path = birdml4Tests;
+			sourceTree = "<group>";
+		};
+		F02050DD284DEE5700B911C1 /* birdml4UITests */ = {
+			isa = PBXGroup;
+			children = (
+				F02050DE284DEE5700B911C1 /* birdml4UITests.swift */,
+				F02050E0284DEE5700B911C1 /* birdml4UITestsLaunchTests.swift */,
+			);
+			path = birdml4UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F02050BF284DEE5600B911C1 /* birdml4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F02050E4284DEE5700B911C1 /* Build configuration list for PBXNativeTarget "birdml4" */;
+			buildPhases = (
+				F02050BC284DEE5600B911C1 /* Sources */,
+				F02050BD284DEE5600B911C1 /* Frameworks */,
+				F02050BE284DEE5600B911C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = birdml4;
+			productName = birdml4;
+			productReference = F02050C0284DEE5600B911C1 /* birdml4.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F02050CF284DEE5700B911C1 /* birdml4Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F02050E7284DEE5700B911C1 /* Build configuration list for PBXNativeTarget "birdml4Tests" */;
+			buildPhases = (
+				F02050CC284DEE5700B911C1 /* Sources */,
+				F02050CD284DEE5700B911C1 /* Frameworks */,
+				F02050CE284DEE5700B911C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F02050D2284DEE5700B911C1 /* PBXTargetDependency */,
+			);
+			name = birdml4Tests;
+			productName = birdml4Tests;
+			productReference = F02050D0284DEE5700B911C1 /* birdml4Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F02050D9284DEE5700B911C1 /* birdml4UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F02050EA284DEE5700B911C1 /* Build configuration list for PBXNativeTarget "birdml4UITests" */;
+			buildPhases = (
+				F02050D6284DEE5700B911C1 /* Sources */,
+				F02050D7284DEE5700B911C1 /* Frameworks */,
+				F02050D8284DEE5700B911C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F02050DC284DEE5700B911C1 /* PBXTargetDependency */,
+			);
+			name = birdml4UITests;
+			productName = birdml4UITests;
+			productReference = F02050DA284DEE5700B911C1 /* birdml4UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F02050B8284DEE5600B911C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					F02050BF284DEE5600B911C1 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					F02050CF284DEE5700B911C1 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = F02050BF284DEE5600B911C1;
+					};
+					F02050D9284DEE5700B911C1 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = F02050BF284DEE5600B911C1;
+					};
+				};
+			};
+			buildConfigurationList = F02050BB284DEE5600B911C1 /* Build configuration list for PBXProject "birdml4" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F02050B7284DEE5600B911C1;
+			productRefGroup = F02050C1284DEE5600B911C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F02050BF284DEE5600B911C1 /* birdml4 */,
+				F02050CF284DEE5700B911C1 /* birdml4Tests */,
+				F02050D9284DEE5700B911C1 /* birdml4UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F02050BE284DEE5600B911C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F02050CB284DEE5700B911C1 /* Preview Assets.xcassets in Resources */,
+				F02050C8284DEE5700B911C1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F02050CE284DEE5700B911C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F02050D8284DEE5700B911C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F02050BC284DEE5600B911C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F02050C6284DEE5600B911C1 /* ContentView.swift in Sources */,
+				F02050F6284DF00200B911C1 /* ListenButton.swift in Sources */,
+				F02050C4284DEE5600B911C1 /* birdml4App.swift in Sources */,
+				F02050F0284DEF4500B911C1 /* AudioStreamObserver.swift in Sources */,
+				F02050EE284DEE7100B911C1 /* AudioStreamManager.swift in Sources */,
+				F02050F2284DEF7D00B911C1 /* BirdSongClassifier.mlmodel in Sources */,
+				F02050F4284DEFE500B911C1 /* ChartView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F02050CC284DEE5700B911C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F02050D5284DEE5700B911C1 /* birdml4Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F02050D6284DEE5700B911C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F02050DF284DEE5700B911C1 /* birdml4UITests.swift in Sources */,
+				F02050E1284DEE5700B911C1 /* birdml4UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F02050D2284DEE5700B911C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F02050BF284DEE5600B911C1 /* birdml4 */;
+			targetProxy = F02050D1284DEE5700B911C1 /* PBXContainerItemProxy */;
+		};
+		F02050DC284DEE5700B911C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F02050BF284DEE5600B911C1 /* birdml4 */;
+			targetProxy = F02050DB284DEE5700B911C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F02050E2284DEE5700B911C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F02050E3284DEE5700B911C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F02050E5284DEE5700B911C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = birdml4/birdml4.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"birdml4/Preview Content\"";
+				DEVELOPMENT_TEAM = Q7KRQNWN6T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = birdml4/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = adsfsad;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = uw.birdml4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F02050E6284DEE5700B911C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = birdml4/birdml4.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"birdml4/Preview Content\"";
+				DEVELOPMENT_TEAM = Q7KRQNWN6T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = birdml4/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = adsfsad;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = uw.birdml4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F02050E8284DEE5700B911C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q7KRQNWN6T;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = uw.birdml4Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/birdml4.app/birdml4";
+			};
+			name = Debug;
+		};
+		F02050E9284DEE5700B911C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q7KRQNWN6T;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = uw.birdml4Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/birdml4.app/birdml4";
+			};
+			name = Release;
+		};
+		F02050EB284DEE5700B911C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q7KRQNWN6T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = uw.birdml4UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = birdml4;
+			};
+			name = Debug;
+		};
+		F02050EC284DEE5700B911C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q7KRQNWN6T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = uw.birdml4UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = birdml4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F02050BB284DEE5600B911C1 /* Build configuration list for PBXProject "birdml4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F02050E2284DEE5700B911C1 /* Debug */,
+				F02050E3284DEE5700B911C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F02050E4284DEE5700B911C1 /* Build configuration list for PBXNativeTarget "birdml4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F02050E5284DEE5700B911C1 /* Debug */,
+				F02050E6284DEE5700B911C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F02050E7284DEE5700B911C1 /* Build configuration list for PBXNativeTarget "birdml4Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F02050E8284DEE5700B911C1 /* Debug */,
+				F02050E9284DEE5700B911C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F02050EA284DEE5700B911C1 /* Build configuration list for PBXNativeTarget "birdml4UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F02050EB284DEE5700B911C1 /* Debug */,
+				F02050EC284DEE5700B911C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F02050B8284DEE5600B911C1 /* Project object */;
+}
